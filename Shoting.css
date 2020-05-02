@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image:url('pexels-photo-131634.jpeg');
+}
+.container{
+    width:100%;
+    height:700px;
+    text-align:center;
+}
+#a{
+    color: lightcoral;
+    background-color: black;
+    text-decoration:none;
+    font-size:30px;
+    padding:15px;
+    display:none;
+    margin-top:230px;
+}
+#a1{
+    color: lightcoral;
+    background-color: black;
+    text-decoration:none;
+    font-size:30px;
+    padding:15px;
+    display:none;
+    margin-top:230px;
+}
+.img{
+    width:100px;
+    position: relative;
+    display:block;
+}
+#duck1{
+    animation:mouvement 4s infinite ease-in-out;
+}
+#duck2{
+    animation:mouvement1 4s infinite ease-in-out;
+}
+#duck3{
+    animation:mouvement2 4s infinite ease-in-out;
+}
+#duck4{
+    animation:mouvement3 4s infinite ease-in-out;
+}
+/* this is keyframes Section */
+ @keyframes mouvement{
+     0%{
+         top:30%;
+         left:15%;
+     }
+     20%{
+        top:40%;
+        left:20%;
+    }
+    40%{
+        top:30%;
+        left:30%;
+    }
+    50%{
+        top:30%;
+        left:50%;
+    }
+    80%{
+        top:50%;
+        left:80%;
+    }
+    100%{
+        top:15%;
+        left:100%;
+    }
+ }
+ /* this is keyframes Section 1 */
+ @keyframes mouvement1{
+    0%{
+        top:50%;
+        left:10%;
+    }
+    20%{
+       top:30%;
+       left:40%;
+   }
+   40%{
+       top:30%;
+       left:60%;
+   }
+   50%{
+       top:50%;
+       left:50%;
+   }
+   80%{
+       top:50%;
+       left:70%;
+   }
+   100%{
+       top:30%;
+       left:100%;
+   }
+}
+/* this is keyframes Section 2 */
+@keyframes mouvement2{
+    0%{
+        top:50%;
+        left:10%;
+    }
+    20%{
+       top:10%;
+       left:30%;
+   }
+   40%{
+       top:30%;
+       left:30%;
+   }
+   50%{
+       top:30%;
+       left:50%;
+   }
+   80%{
+       top:40%;
+       left:80%;
+   }
+   100%{
+       top:15%;
+       left:100%;
+   }
+}
+/* this is keyframes Section 3 */
+@keyframes mouvement3{
+    0%{
+        top:30%;
+        left:15%;
+    }
+    20%{
+       top:15%;
+       left:40%;
+   }
+   40%{
+       top:30%;
+       left:60%;
+   }
+   50%{
+       top:20%;
+       left:80%;
+   }
+   80%{
+       top:50%;
+       left:90%;
+   }
+   100%{
+       top:15%;
+       left:100%;
+   }
+}
